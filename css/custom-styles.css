@@ -15,27 +15,27 @@
 @font-face {
     font-family: "Bungee-Hairline";
     src: local("Bungee-Hairline"),
-    url('../fonts/bungee/Bungee-Hairline.otf');
+    url('/dev/fonts/bungee/Bungee-Hairline.otf');
 }
 @font-face {
     font-family: "Bungee-Inline";
     src: local("Bungee-Inline"),
-    url('../fonts/bungee/Bungee-Inline.otf');
+    url('/dev/fonts/bungee/Bungee-Inline.otf');
 }
 @font-face {
     font-family: "Bungee-Outline";
     src: local("Bungee-Outline"),
-    url('../fonts/bungee/Bungee-Outline.otf');
+    url('/dev/fonts/bungee/Bungee-Outline.otf');
 }
 @font-face {
     font-family: "Bungee-Regular";
     src: local("Bungee-Regular"),
-    url('../fonts/bungee/Bungee-Regular.otf');
+    url('/dev/fonts/bungee/Bungee-Regular.otf');
 }
 @font-face {
     font-family: "Montserrat";
     src: local("Montserrat"),
-    url('../fonts/montserrat/Montserrat-Regular.otf');
+    url('/dev/fonts/montserrat/Montserrat-Regular.otf');
 }
 
 body {
