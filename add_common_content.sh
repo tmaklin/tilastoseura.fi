@@ -6,7 +6,7 @@
 #   footer: footre.html
 ####
 
-#!/bin/bash
+#!/bin/sh
 set -eupo pipefail
 gsed -i '/<html lang="fi">/ r header.html' $1
 gsed -i '/<body>/ r navbar.html' $1

@@ -2,7 +2,7 @@
 # Deploy the webpage from the git repository
 ####
 
-#!/bin/bash
+#!/bin/sh
 set -eupo pipefail
 
 # Minify css and js files

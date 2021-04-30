@@ -1,6 +1,6 @@
-# Taken from https://mohammadthalif.wordpress.com/2016/07/25/how-to-minify-css-using-simple-bash-commands/
+# Taken from https://mohammadthalif.wordpress.com/2016/07/25/how-to-minify-css-using-simple-sh-commands/
 # accessed 30 April 2021
-#!/bin/bash
+#!/bin/sh
 set -eupo pipefail
 
 extension=${1##*.}
