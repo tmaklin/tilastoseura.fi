@@ -1,0 +1,173 @@
+/* Custom styles for https://tilastoseura.fi */
+
+:root {
+    --additional-1-c: #305252;
+    --additional-2-c: #77878b;
+    --accent-1-c: #16db65;
+    --accent-2-c: #18a558;
+    --background-c: #fdfdfd;
+    --harmaa: #373e40;
+    --seuran-sininen: #00007e;
+    --valkoinen: #fdfdfd;
+    --link-hover: #C8E9E9;
+}
+
+@font-face {
+    font-family: "Bungee-Hairline";
+    src: local("Bungee-Hairline"),
+    url('../fonts/bungee/Bungee-Hairline.otf');
+}
+@font-face {
+    font-family: "Bungee-Inline";
+    src: local("Bungee-Inline"),
+    url('../fonts/bungee/Bungee-Inline.otf');
+}
+@font-face {
+    font-family: "Bungee-Outline";
+    src: local("Bungee-Outline"),
+    url('../fonts/bungee/Bungee-Outline.otf');
+}
+@font-face {
+    font-family: "Bungee-Regular";
+    src: local("Bungee-Regular"),
+    url('../fonts/bungee/Bungee-Regular.otf');
+}
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat"),
+    url('../fonts/montserrat/Montserrat-Regular.otf');
+}
+
+body {
+    padding-top: 56px;
+    color: black; 
+    background-color: var(--background-c);
+    font-family: Montserrat;
+}
+
+a {
+    color: var(--accent-1-c);
+}
+a:visited {
+    color: var(--valkoinen);
+}
+a:hover {
+    color: var(--link-hover);
+}
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+.btn {
+    color: var(--accent-1-c);
+    background: var(--additional-1-c);
+    border-color: var(--accent-2-c);
+}
+.btn:hover {
+    color: var(--accent-1-c);
+    background: var(--additional-1-c);
+    border-color: var(--accent-1-c);
+}
+
+.card-img, card-img {
+    background-color: #FFFFFF;
+    padding: 2em;
+}
+.card-text, card-text {
+    color: black;
+}
+.card-title, card-title {
+    background-color: var(--additional-2-c);
+}
+.card-body, card-body {
+    background-color: var(--additional-2-c);
+}
+.card, card {
+    background-color: var(--additional-2-c);
+}
+
+.carousel-body, carousel-body {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar, navbar-dark {
+    background-color: var(--harmaa);
+}
+
+.navbar-nav li .dropdown-menu {
+    font-family: Bungee-Regular;
+    background-color: var(--harmaa);
+}
+.navbar-nav li .dropdown-item {
+    color: var(--valkoinen);
+}
+.navbar-nav li .dropdown-menu>dropdown-item>a:hover {
+    background-color: var(--harmaa);
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    color: var(--link-hover);
+    background-color: var(--harmaa);
+}
+
+.navbar .container .navbar-brand {
+    font-family: Bungee-Regular;
+    color: var(--valkoinen);
+}
+.navbar .container .nav-item .nav-link {
+    font-family: Bungee-Regular;
+    color: var(--valkoinen);
+}
+.navbar .container .nav-item .nav-link:active, .navbar .container .nav-item .nav-link:hover {
+    color: var(--link-hover);
+}
+.navbar .container .nav-item, .navbar .container .nav-item .nav-link:visited {
+    color: var(--valkoinen);
+    background-color: var(--harmaa);
+}
+.navbar .container .nav-item .nav-link:hover {
+    color: var(--link-hover);
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.h1, h1 {
+    font-family: Bungee-Inline;
+    color: var(--accent-1-c);
+}
+.h2, h2 {
+    font-family: Bungee-Regular;
+    color: var(--accent-1-c);
+}
+.h3, h3 {
+    font-family: Bungee-Regular;
+    color: var(--accent-1-c);
+}
+.h4, h4 {
+    font-family: Bungee-Regular;
+    color: var(--accent-1-c);
+}
+.h5, h5 {
+    font-family: Bungee-Regular;
+    color: var(--accent-1-c);
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.footer-dark {
+    color: var(--valkoinen);
+}
