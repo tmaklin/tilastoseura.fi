@@ -7,5 +7,5 @@ extension=${1##*.}
 minified=${1%.*}
 minified=$minified.min.$extension
 cat $1 | \
-gsed -r ':a; s%(.*)/\*.*\*/%\1%; ta; /\/\*/ !b; N; ba' \
+sed -r ':a; s%(.*)/\*.*\*/%\1%; ta; /\/\*/ !b; N; ba' \
 | tr -d '\t' | tr -d ' ' | tr -d '\n' | tr -s ' ' ' ' > $minified
