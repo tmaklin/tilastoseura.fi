@@ -5,6 +5,14 @@
 #!/bin/bash
 set -eupo pipefail
 
+# Minify css and js files
+for css in css/*.css; do
+    ./minify.sh $css
+done
+for js in js/*.js; do
+    ./minify.sh $js
+done
+
 # Index
 ./add_common_content.sh index.html
 

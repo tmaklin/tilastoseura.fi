@@ -1,2 +1,5 @@
 .DS_Store
 *~
+js/*.min.js
+css/*.min.css
+js/*.min.js
