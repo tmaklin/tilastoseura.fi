@@ -14,32 +14,32 @@
 @font-face {
     font-family: "Montserrat";
     src: local("Montserrat"),
-    url('/dev/fonts/montserrat/Montserrat-Regular.otf');
+    url('/fonts/montserrat/Montserrat-Regular.otf');
 }
 @font-face {
         font-family: "WorkSans-ExtraBold";
         src: local("WorkSans"),
-        url('/dev/fonts/Work_Sans/static/WorkSans-ExtraBold.ttf');
+        url('/fonts/Work_Sans/static/WorkSans-ExtraBold.ttf');
 }
 @font-face {
         font-family: "WorkSans-Bold";
         src: local("WorkSans"),
-        url('/dev/fonts/Work_Sans/static/WorkSans-Bold.ttf');
+        url('/fonts/Work_Sans/static/WorkSans-Bold.ttf');
 }
 @font-face {
 	font-family: "WorkSans-SemiBold";
 	src: local("WorkSans"),
-	url('/dev/fonts/Work_Sans/static/WorkSans-SemiBold.ttf');
+	url('/fonts/Work_Sans/static/WorkSans-SemiBold.ttf');
 }
 @font-face {
         font-family: "WorkSans-Regular";
         src: local("WorkSans"),
-        url('/dev/fonts/Work_Sans/static/WorkSans-Regular.ttf');
+        url('/fonts/Work_Sans/static/WorkSans-Regular.ttf');
 }
 @font-face {
         font-family: "WorkSans-Italic";
         src: local("WorkSans"),
-        url('/dev/fonts/Work_Sans/static/WorkSans-Italic.ttf');
+        url('/fonts/Work_Sans/static/WorkSans-Italic.ttf');
 }
 
 body {
