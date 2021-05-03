@@ -116,9 +116,10 @@ ul.no-bullets {
 }
 .navbar-nav li .dropdown-item {
     color: var(--background-c);
+    background-color: var(--additional-1-c);
 }
 .navbar-nav li .dropdown-menu>dropdown-item>a:hover {
-    background-color: var(--accent-2-c);
+    background-color: var(--additional-1-c);
 }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
     color: var(--accent-2-c);
