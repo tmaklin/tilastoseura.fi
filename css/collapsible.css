@@ -16,29 +16,17 @@
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
 }
 .accordion label {
-    color: #fff;
     cursor: pointer;
     font-weight: normal;
-    padding: 10px;
-    background: #b0100c;
+    font-size: 0.7em;
+    padding: 0px;
+    color: #00007e;
     
 }
 
 .accordion label:hover,
 .accordion label:focus {
-    background: #252525;
-}
-
-.accordion .handle label:before {
-    font-family: FontAwesome;
-    content: "\f107";
-    display: inline-block;
-    margin-right: 10px;
-    font-size: 1em;
-    line-height: 1.556em;
-    vertical-align: middle;
-    transition: 0.4s;
-    
+    color: #0078ff;
 }
 
 .accordion > input[name="collapse"]:checked ~ .handle label:before {
