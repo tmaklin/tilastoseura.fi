@@ -5,8 +5,6 @@
 ./deploy.sh
 ./cleanup.sh
 rm cleanup.sh
-chown -R <user>:<webserver> ./*
-chmod -R 750 ./*
 ```
 
 ### Detailed description
@@ -20,19 +18,8 @@ Run the `cleanup.sh` script which will remove the common content that
 was added, the deployment scripts, and the git repository. Remove the
 cleanup script by running `rm cleanup.sh`.
 
-#### Set file permissions
-Write permissions for the owner, read-only for the group (webserver),
-and no permissions for anyone else.
-
-```
-chmod -R 750 ./*
-```
-
-Change the owner of the files to the correct user and the group to the
-webserver
-```
-chown -R <user>:<webserver> ./*
-```
+#### Add the content package
+Download the content package from *TODO* and extract it to the root directory.
 
 ## License
 This work is licensed under a [Creative Commons Attribution 4.0
