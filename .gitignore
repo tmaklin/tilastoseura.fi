@@ -1,5 +1,12 @@
+# MacOs crap
 .DS_Store
+
+# Emacs autosaves
 *~
+
+# Content folder
+content/
+
+# Minified files
 js/*.min.js
 css/*.min.css
-js/*.min.js
