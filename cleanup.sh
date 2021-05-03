@@ -2,7 +2,7 @@
 set -eupo pipefail
 
 # Remove the deployment files
-rm deploy.sh add_common_content.sh minify.sh
+rm deploy.sh add_common_content.sh
 rm footer.html header.html navbar.html
 
 # Remove the git repository
