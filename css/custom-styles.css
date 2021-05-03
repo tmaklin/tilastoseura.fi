@@ -2,10 +2,12 @@
 
 :root {
     --additional-1-c: #373e40; /* Onyx */
-    --additional-2-c: #6E7E85; /* Slate Grey */
-    --additional-3-c: #16E7E8; /* Fluorescent Blue */
+    --additional-2-c: #6E7E85; /* Slate grey */
+    --additional-3-c: #16E7E8; /* Fluorescent blue */
     --accent-1-c: #00007e; /* Navy blue */
     --accent-2-c: #C8E9E9; /* Powder blue */
+    --accent-3-c: #0078ff; /* Blue crayloa */
+    --accent-4-c: #0054b6; /* Sapphire */
     --background-c: #fdfdfd; /* White */
 }
 
@@ -48,13 +50,22 @@ body {
 }
 
 a {
-    color: var(--additional-3-c);
+    color: var(--accent-3-c);
 }
 a:visited {
-    color: var(--additional-3-c);
+    color: var(--accent-3-c);
 }
 a:hover {
+    color: var(--accent-4-c);
+}
+a.footer {
     color: var(--accent-2-c);
+}
+a.footer:visited {
+    color: var(--accent-2-c);
+}
+a.footer:hover {
+    color: var(--additional-3-c);
 }
 
 ul.no-bullets {
@@ -100,17 +111,17 @@ ul.no-bullets {
 }
 
 .navbar-nav li .dropdown-menu {
-    font-family: WorkSans-Regular;
+    font-family: WorkSans-SemiBold;
     background-color: var(--additional-1-c);
 }
 .navbar-nav li .dropdown-item {
     color: var(--background-c);
 }
 .navbar-nav li .dropdown-menu>dropdown-item>a:hover {
-    background-color: var(--additional-1-c);
+    background-color: var(--accent-2-c);
 }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
-    color: var(--additional-3-c);
+    color: var(--accent-2-c);
     background-color: var(--additional-1-c);
 }
 
@@ -123,15 +134,16 @@ ul.no-bullets {
     color: var(--background-c);
 }
 .navbar .container .nav-item .nav-link:active, .navbar .container .nav-item .nav-link:hover {
-    color: var(--additional-3-c);
+    color: var(--accent-2-c);
 }
 .navbar .container .nav-item, .navbar .container .nav-item .nav-link:visited {
     color: var(--background-c);
     background-color: var(--additional-1-c);
 }
 .navbar .container .nav-item .nav-link:hover {
-    color: var(--additional-3-c);
+    color: var(--accent-2-c);
 }
+
 .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
