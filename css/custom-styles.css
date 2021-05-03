@@ -1,41 +1,43 @@
 /* Custom styles for https://tilastoseura.fi */
 
 :root {
-    --additional-1-c: #305252;
-    --additional-2-c: #77878b;
-    --accent-1-c: #16db65;
-    --accent-2-c: #18a558;
-    --background-c: #fdfdfd;
-    --harmaa: #373e40;
-    --seuran-sininen: #00007e;
-    --valkoinen: #fdfdfd;
-    --link-hover: #C8E9E9;
+    --additional-1-c: #373e40; /* Onyx */
+    --additional-2-c: #6E7E85; /* Slate Grey */
+    --additional-3-c: #16E7E8; /* Fluorescent Blue */
+    --accent-1-c: #00007e; /* Navy blue */
+    --accent-2-c: #C8E9E9; /* Powder blue */
+    --background-c: #fdfdfd; /* White */
 }
 
-@font-face {
-    font-family: "Bungee-Hairline";
-    src: local("Bungee-Hairline"),
-    url('/dev/fonts/bungee/Bungee-Hairline.otf');
-}
-@font-face {
-    font-family: "Bungee-Inline";
-    src: local("Bungee-Inline"),
-    url('/dev/fonts/bungee/Bungee-Inline.otf');
-}
-@font-face {
-    font-family: "Bungee-Outline";
-    src: local("Bungee-Outline"),
-    url('/dev/fonts/bungee/Bungee-Outline.otf');
-}
-@font-face {
-    font-family: "Bungee-Regular";
-    src: local("Bungee-Regular"),
-    url('/dev/fonts/bungee/Bungee-Regular.otf');
-}
 @font-face {
     font-family: "Montserrat";
     src: local("Montserrat"),
     url('/dev/fonts/montserrat/Montserrat-Regular.otf');
+}
+@font-face {
+        font-family: "WorkSans-ExtraBold";
+        src: local("WorkSans"),
+        url('/dev/fonts/Work_Sans/static/WorkSans-ExtraBold.ttf');
+}
+@font-face {
+        font-family: "WorkSans-Bold";
+        src: local("WorkSans"),
+        url('/dev/fonts/Work_Sans/static/WorkSans-Bold.ttf');
+}
+@font-face {
+	font-family: "WorkSans-SemiBold";
+	src: local("WorkSans"),
+	url('/dev/fonts/Work_Sans/static/WorkSans-SemiBold.ttf');
+}
+@font-face {
+        font-family: "WorkSans-Regular";
+        src: local("WorkSans"),
+        url('/dev/fonts/Work_Sans/static/WorkSans-Regular.ttf');
+}
+@font-face {
+        font-family: "WorkSans-Italic";
+        src: local("WorkSans"),
+        url('/dev/fonts/Work_Sans/static/WorkSans-Italic.ttf');
 }
 
 body {
@@ -46,13 +48,13 @@ body {
 }
 
 a {
-    color: var(--accent-1-c);
+    color: var(--additional-3-c);
 }
 a:visited {
-    color: var(--valkoinen);
+    color: var(--additional-3-c);
 }
 a:hover {
-    color: var(--link-hover);
+    color: var(--accent-2-c);
 }
 
 ul.no-bullets {
@@ -94,63 +96,63 @@ ul.no-bullets {
 }
 
 .navbar, navbar-dark {
-    background-color: var(--harmaa);
+    background-color: var(--additional-1-c);
 }
 
 .navbar-nav li .dropdown-menu {
-    font-family: Bungee-Regular;
-    background-color: var(--harmaa);
+    font-family: WorkSans-Regular;
+    background-color: var(--additional-1-c);
 }
 .navbar-nav li .dropdown-item {
-    color: var(--valkoinen);
+    color: var(--background-c);
 }
 .navbar-nav li .dropdown-menu>dropdown-item>a:hover {
-    background-color: var(--harmaa);
+    background-color: var(--additional-1-c);
 }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
-    color: var(--link-hover);
-    background-color: var(--harmaa);
+    color: var(--additional-3-c);
+    background-color: var(--additional-1-c);
 }
 
 .navbar .container .navbar-brand {
-    font-family: Bungee-Regular;
-    color: var(--valkoinen);
+    font-family: WorkSans-SemiBold;
+    color: var(--background-c);
 }
 .navbar .container .nav-item .nav-link {
-    font-family: Bungee-Regular;
-    color: var(--valkoinen);
+    font-family: WorkSans-SemiBold;
+    color: var(--background-c);
 }
 .navbar .container .nav-item .nav-link:active, .navbar .container .nav-item .nav-link:hover {
-    color: var(--link-hover);
+    color: var(--additional-3-c);
 }
 .navbar .container .nav-item, .navbar .container .nav-item .nav-link:visited {
-    color: var(--valkoinen);
-    background-color: var(--harmaa);
+    color: var(--background-c);
+    background-color: var(--additional-1-c);
 }
 .navbar .container .nav-item .nav-link:hover {
-    color: var(--link-hover);
+    color: var(--additional-3-c);
 }
 .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .h1, h1 {
-    font-family: Bungee-Inline;
+    font-family: WorkSans-ExtraBold;
     color: var(--accent-1-c);
 }
 .h2, h2 {
-    font-family: Bungee-Regular;
+    font-family: WorkSans-Bold;
     color: var(--accent-1-c);
 }
 .h3, h3 {
-    font-family: Bungee-Regular;
+    font-family: WorkSans-SemiBold;
     color: var(--accent-1-c);
 }
 .h4, h4 {
-    font-family: Bungee-Regular;
+    font-family: WorkSans-Regular;
     color: var(--accent-1-c);
 }
 .h5, h5 {
-    font-family: Bungee-Regular;
+    font-family: WorkSans-Italic;
     color: var(--accent-1-c);
 }
 
@@ -169,5 +171,5 @@ ul.no-bullets {
 }
 
 .footer-dark {
-    color: var(--valkoinen);
+    color: var(--background-c);
 }
