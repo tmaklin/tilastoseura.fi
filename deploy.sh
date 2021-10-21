@@ -9,6 +9,9 @@ set -eupo pipefail
 ./add_common_content.sh index.html
 ./fix_nordics.sh index.html
 
+# Twitter embed js code
+wget -O js/widgets.js https://platform.twitter.com/widgets.js
+
 # Pages folder
 for page in pages/*.html; do
     ./add_common_content.sh $page
