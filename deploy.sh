@@ -35,3 +35,9 @@ for page in pages/tilastopaivat/*.html; do
     ./add_common_content.sh $page
     ./fix_nordics.sh $page
 done
+
+# News subfolder
+for page in news/*.html; do
+    ./add_common_content.sh $page
+    ./fix_nordics.sh $page
+done
