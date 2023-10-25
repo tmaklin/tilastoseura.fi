@@ -10,4 +10,4 @@ set -eupo pipefail
 ./fix_nordics.sh ./index.html
 
 # Twitter embed js code
-wget -O fi/js/widgets.js https://platform.twitter.com/widgets.js
+wget -O /js/widgets.js https://platform.twitter.com/widgets.js
