@@ -19,25 +19,25 @@ for page in /fi/pages/*.html; do
 done
 
 # Iltapaivaseminaarit subfolder
-for page in /fi/pages/iltapaivaseminaarit/*.html; do
+for page in fi/pages/iltapaivaseminaarit/*.html; do
     ./add_common_content_fi.sh $page
     ./fix_nordics.sh $page
 done
 
 # Palkinnot subfolder
-for page in /fi/pages/palkinnot/*.html; do
+for page in fi/pages/palkinnot/*.html; do
     ./add_common_content_fi.sh $page
     ./fix_nordics.sh $page
 done
 
 # Tilastopaivat subfolder
-for page in /fi/pages/tilastopaivat/*.html; do
+for page in fi/pages/tilastopaivat/*.html; do
     ./add_common_content_fi.sh $page
     ./fix_nordics.sh $page
 done
 
 # News subfolder
-for page in /fi/news/*.html; do
+for page in fi/news/*.html; do
     ./add_common_content_fi.sh $page
     ./fix_nordics.sh $page
 done
