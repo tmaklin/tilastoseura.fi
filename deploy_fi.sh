@@ -13,7 +13,7 @@ set -eupo pipefail
 wget -O js/widgets.js https://platform.twitter.com/widgets.js
 
 # Pages folder
-for page in /fi/pages/*.html; do
+for page in fi/pages/*.html; do
     ./add_common_content_fi.sh $page
     ./fix_nordics.sh $page
 done
