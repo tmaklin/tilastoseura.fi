@@ -14,5 +14,7 @@ rm footer_fi.html header_fi.html navbar_fi.html
 rm deploy_root.sh add_common_content_root.sh
 rm header_root.html
 
+rm fix_nordics.sh
+
 # Remove the git repository
 rm -rf .git .gitignore README.md
