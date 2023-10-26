@@ -6,8 +6,8 @@
 set -eupo pipefail
 
 # Index
-./add_common_content_en.sh /en/index.html
-./fix_nordics.sh /en/index.html
+./add_common_content_en.sh en/index.html
+./fix_nordics.sh en/index.html
 
 # Twitter embed js code
 wget -O js/widgets.js https://platform.twitter.com/widgets.js
