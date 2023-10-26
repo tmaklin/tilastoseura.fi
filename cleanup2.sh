@@ -11,5 +11,8 @@ rm footer_en.html header_en.html navbar_en.html
 rm deploy_fi.sh add_common_content_fi.sh
 rm footer_fi.html header_fi.html navbar_fi.html
 
+rm deploy_root.sh add_common_content_root.sh
+rm header_root.html
+
 # Remove the git repository
 rm -rf .git .gitignore README.md
