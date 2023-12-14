@@ -10,7 +10,7 @@
 set -eupo pipefail
 sed -i '/<html lang="fi">/ r header_en.html' $1
 sed -i '/<body>/ r navbar_en.html' $1
-sed -i '/<body class="d-flex flex-column">/ r navbar_fi.html' $1
+sed -i '/<body class="d-flex flex-column">/ r navbar_en.html' $1
 tail -r footer_en.html > footer_reverse.html
 tmpname=tmp-$RANDOM
 tail -r $1 | sed '/<\/body>/ r footer_reverse.html' | tail -r > $tmpname
