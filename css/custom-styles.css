@@ -49,6 +49,18 @@ body {
     font-family: Montserrat;
 }
 
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
 a {
     color: var(--accent-3-c);
 }
