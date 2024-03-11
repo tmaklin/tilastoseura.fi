@@ -86,6 +86,10 @@ ul.no-bullets {
     margin: 0; /* Remove margins */
 }
 
+td {
+  vertical-align: top;
+}
+
 .btn {
     color: var(--accent-1-c);
     background: var(--additional-1-c);
