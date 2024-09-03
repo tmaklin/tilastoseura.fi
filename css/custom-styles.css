@@ -202,3 +202,14 @@ td {
 .footer-dark {
     color: var(--background-c);
 }
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
