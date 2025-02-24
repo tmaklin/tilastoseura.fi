@@ -1,4 +1,6 @@
 # Tilastoseura.fi webpage
+Maintainer note: deprecated since Jan 2025, kept for archival purposes.
+
 ## Deploying
 ### Quickstart
 ```
